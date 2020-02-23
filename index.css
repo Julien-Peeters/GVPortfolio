@@ -13,6 +13,13 @@ body {
 }
 header {
 	grid-area: head;
+	margin: 50px 0;
+	/*border-width: 0 2pt;
+	border-style: solid;
+	border-color: black;*/
+}
+header h1{
+	margin: 20px 0 35px 0;
 }
 main {
 	grid-area: main;
@@ -27,10 +34,16 @@ hr {
 	width: 100%;
 }
 h1 {
-	font-size: 40pt;
+	font-size: 50pt;
 	text-align: center;
 	font-family: 'EB Garamond';
 	font-weight: 100;
+}
+h2 {
+	font-size: 30pt;
+	text-align: center;
+	font-family: 'EB Garamond';
+	font-weight: 200;
 }
 .projectBlock {
 	display: grid;
@@ -63,4 +76,13 @@ h1 {
 }
 .height3 {
 	grid-row-start: span 3;
+}
+.tRight{
+	text-align: right;
+}
+.tLeft{
+	text-align: left;
+}
+.tCenter{
+	text-align: center;
 }
