@@ -46,6 +46,7 @@ footer {
     footer p {
         background-color: white;
         margin: 0 auto;
+        display: inline;
     }
 
         footer p a {
