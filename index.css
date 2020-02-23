@@ -1,94 +1,115 @@
 body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background-image: url(images/backgroundTheRookies.svg);
-	background-size: cover;
-	display: grid;
-	grid-template-rows: auto 1fr auto;
-	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-areas:
-		". head ."
-		". main ."
-		". footer .";
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(images/backgroundTheRookies.svg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: ". head ." ". main ." ". footer .";
 }
+
 header {
-	grid-area: head;
-	margin: 50px 0;
-	/*border-width: 0 2pt;
-	border-style: solid;
-	border-color: black;*/
+    grid-area: head;
+    margin: 50px 0;
 }
-header h1{
-	margin: 20px 0 35px 0;
-}
+
+    header h1 {
+        margin: 20px 0 35px 0;
+    }
+
 main {
-	grid-area: main;
-	display: grid;
-	grid-template-rows: repeat(auto-fill, auto);
-	grid-gap: 50px;
+    grid-area: main;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto);
+    grid-gap: 50px;
 }
-footer{
-	grid-area: footer;
-	margin: 30px 0;
+
+footer {
+    grid-area: footer;
+    margin: 25px 0 30px 0;
+    font-family: 'Roboto';
 }
+
+    footer a {
+        color: darkgoldenrod;
+        text-decoration: none;
+    }
+
 img {
-	max-height: 400px;
+    max-height: 400px;
 }
+
 hr {
-	width: 100%;
+    width: 100%;
 }
+
 h1 {
-	font-size: 50pt;
-	text-align: center;
-	font-family: 'EB Garamond';
-	font-weight: 100;
+    font-size: 50pt;
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-weight: 100;
 }
+
 h2 {
-	margin-top: -15px;
-	font-size: 30pt;
-	text-align: center;
-	font-family: 'EB Garamond';
-	font-weight: 200;
+    margin-top: -15px;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-weight: 200;
 }
+
 .projectBlock {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
-.projectBlock p {
-	align-self: center;
-}
-.projectBlock img {
-	align-self: center;
-	object-fit: contain;
-	width: 100%;
-}
+
+    .projectBlock p {
+        align-self: center;
+        font-family: 'Roboto';
+    }
+
+    .projectBlock img {
+        align-self: center;
+        object-fit: contain;
+        width: 100%;
+    }
+
 .width1 {
-	grid-column-start: span 1;
-	width: 100%;
+    grid-column-start: span 1;
+    width: 100%;
 }
+
 .width2 {
-	grid-column-start: span 2;
+    grid-column-start: span 2;
 }
+
 .width3 {
-	grid-column-start: span 3;
+    grid-column-start: span 3;
 }
+
 .height1 {
-	grid-row-start: span 1;
+    grid-row-start: span 1;
 }
+
 .height2 {
-	grid-row-start: span 2;
+    grid-row-start: span 2;
 }
+
 .height3 {
-	grid-row-start: span 3;
+    grid-row-start: span 3;
 }
-.tRight{
-	text-align: right;
+
+.tRight {
+    text-align: right;
 }
-.tLeft{
-	text-align: left;
+
+.tLeft {
+    text-align: left;
 }
-.tCenter{
-	text-align: center;
+
+.tCenter {
+    text-align: center;
 }
