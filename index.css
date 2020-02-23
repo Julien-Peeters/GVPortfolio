@@ -23,7 +23,7 @@ main {
 img {
 	max-height: 400px;
 }
-hr{
+hr {
 	width: 100%;
 }
 h1 {
@@ -35,6 +35,7 @@ h1 {
 .projectBlock {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
 }
 .projectBlock p {
 	align-self: center;
