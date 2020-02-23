@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: ". head ." ". main ." ". footer .";
+    grid-template-areas: ". head ." ". main ." "footer footer footer";
 }
 
 header {
@@ -29,24 +29,29 @@ main {
     max-width: 1000px;
     margin: 0 auto;
 }
-main hr:last-of-type{
-    margin-bottom: 0;
-}
+
+    main hr:last-of-type {
+        margin-bottom: 0;
+    }
 
 footer {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 25px 0 30px 0;
+    padding:  28px 0 30px 0;
     grid-area: footer;
     font-family: 'Roboto';
     background-image: url(images/backgroundTheRookies2.svg);
     background-color: white;
+    background-size: 32px;
 }
 
-    footer a {
-        color: goldenrod;
-        text-decoration: none;
+    footer p {
+        background-color: white;
+        margin: 0 auto;
     }
+
+        footer p a {
+            color: goldenrod;
+            text-decoration: none;
+        }
 
 img {
     max-height: 400px;
