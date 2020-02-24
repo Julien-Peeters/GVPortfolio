@@ -122,10 +122,12 @@ h2 {
 
 .tRight {
     text-align: right;
+    margin-right: 50px;
 }
 
 .tLeft {
     text-align: left;
+    margin-left: 50px;
 }
 
 .tCenter {
