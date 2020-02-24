@@ -86,6 +86,7 @@ h2 {
     .projectBlock p {
         align-self: center;
         font-family: 'Roboto';
+        font-size: 20pt;
     }
 
     .projectBlock img {
